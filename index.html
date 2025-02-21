@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="sidebar-nav">
+      <div class="logo">
+        <a href=""><img src="logo-new.png"></a>
+      </div>
+      <ul>
+        <li><a href="" style="color:white"><i class="fa fa-home" style="color:white"></i>Home</a></li>
+        <li class="l"><a href=""><i class="fa fa-search"></i>Search</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-nav box-2">
+      <ul>
+        <li class="l"><a href=""><i class="fa fa-book"></i><span class="library">Your Library</span></a></li>
+        <li>
+          <div class="sidebar-scroll">
+            <div class="create-playlist">
+              <h4>
+                Create your first playlist
+              </h4>
+              <p>It's easy, we will help you</p>
+              <button class="btn">Create Playlist</button>
+            </div>
+            <div class="create-playlist">
+              <h4 class="h4">
+                Let's find some podcasts to follow
+              </h4>
+              <p>We'll keep you updated on new episodes</p>
+              <button class="btn">Browse Podscast</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="privacy">
+        <ul>
+          <li>
+            <a href="">Legal</a>
+            <a href="">Safety & Privacy Center</a>
+            <a href="">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="">Cookies</a>
+            <a href="">About Ads</a>
+            <a href="">Accessibility</a>
+          </li>
+        </ul>
+        <div class="eng-btn"><button><i class="fa fa-globe" style="color: #e9e5d8;"></i>English</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Main navbar top-->
+  <div class="main-section">
+    <div class="top-nav">
+      <div class="prev-btn">
+        <button><i class="fa-solid fa-chevron-left"></i></button>
+        <button><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+      <div class="login-btn1">
+        <button class="signup"><a href="signup.html" style="color:white;text-decoration: none;">Sign Up</a></button>
+        <button class="login"><a href="login.html" style="color:black;text-decoration: none;">Log In</a></button>
+      </div>
+    </div>
+    <!--playlist-1-->
+    <div class="spotify-playlist">
+      <h3 class="h3" style="color: white;">Popular albums</h3>
+      <div class="card">
+        <div class="item" id="1">
+          <img class="im" src="item-6.jpg">
+          <div class="play-btn" id="1">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>ANIMAL</h5>
+          <p class="para" style="color:grey;">Vishal Mishra, Jaani</p>
+        </div>
+        <div class="item" id="2">
+          <img class="im" src="ek tha raja.jpeg">
+          <div class="play-btn" id="2">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Ek Tha Raja</h5>
+          <p class="para" style="color:grey;">Badshah, Arijit Singh</p>
+        </div>
+        <div class="item" id="3">
+          <img class="im" src="item-7.jpg">
+          <div class="play-btn" id="3">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Still Rollin</h5>
+          <p class="para" style="color:grey;">Shubh</p>
+        </div>
+        <div class="item" id="4">
+          <img class="im" src="item-8.jpg">
+          <div class="play-btn" id="4">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Husn</h5>
+          <p class="para" style="color:grey;">Anuv Jain</p>
+        </div>
+        <div class="item" id="5">
+          <img class="im" src="item-9.jpg">
+          <div class="play-btn" id="5">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Moosetape</h5>
+          <p class="para" style="color:grey;">Sidhu Moose Wala</p>
+        </div>
+        <div class="item" id="6">
+          <img class="im" src="item-10.jpg">
+          <div class="play-btn" id="6">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Satranga</h5>
+          <p class="para" style="color:grey;">Arijit Singh, Shreya Puranik</p>
+        </div>
+      </div>
+    </div>
+    <!--playlist-2-->
+    <div class="spotify-playlist">
+      <h3 class="h3" style="color: white;">Spotify Playlist</h3>
+      <div class="card">
+        <div class="item" id="7">
+          <img class="im" src="All Out 80s.jpg">
+          <div class="play-btn" id="7">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>All Out 80s</h5>
+          <p class="para" style="color:grey;">the biggest songs of 1980s</p>
+        </div>
+        <div class="item" id="8">
+          <img class="im" src="All Out 2010s.jpg">
+          <div class="play-btn" id="8">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>All Out 2010s</h5>
+          <p class="para" style="color:grey;">The biggest songs of 2010s</p>
+        </div>
+        <div class="item" id="9">
+          <img class="im" src="RapCaviar.jpg">
+          <div class="play-btn" id="9">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>RapCaviar</h5>
+          <p class="para" style="color:grey;">New rap songs from weekend</p>
+        </div>
+        <div class="item" id="10">
+          <img class="im" src="item-4.jpg">
+          <div class="play-btn" id="10">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>All Out 2020s</h5>
+          <p class="para" style="color:grey;">The biggest songs of the 2020s</p>
+        </div>
+        <div class="item" id="11">
+          <img class="im" src="item-2.jpg">
+          <div class="play-btn" id="11">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Today's Top Hits</h5>
+          <p class="para" style="color:grey;">Chappel Roan is on top of Today's top 50</p>
+        </div>
+        <div class="item" id="12">
+          <img class="im" src="item-5.jpg">
+          <div class="play-btn" id="12">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Jazz In The Background</h5>
+          <p class="para" style="color:grey;">Soft instrumental Jazz for all your activities.</p>
+        </div>
+      </div>
+    </div>
+    <!--playlist-3-->
+    <div class="spotify-playlist">
+      <h3 class="h3" style="color: white;">Relax Playlist</h3>
+      <div class="card">
+        <div class="item" id="13">
+          <img class="im" src="Beats to think to.jpg">
+          <div class="play-btn" id="13">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Beats To Think To</h5>
+          <p class="para" style="color:grey;">By Spotify</p>
+        </div>
+        <div class="item" id="14">
+          <img class="im" src="Chill Hits.jpg">
+          <div class="play-btn" id="14">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Chill Hits</h5>
+          <p class="para" style="color:grey;">Chill with the beats</p>
+        </div>
+        <div class="item" id="15">
+          <img class="im" src="Deep Focus.jpg">
+          <div class="play-btn" id="15">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Deep Focus</h5>
+          <p class="para" style="color:grey;">various Artists</p>
+        </div>
+        <div class="item" id="16">
+          <img class="im" src="Focus Flow.jpg">
+          <div class="play-btn" id="16">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Focus Flow</h5>
+          <p class="para" style="color:grey;">Uptempo instrumental hip hop beats</p>
+        </div>
+        <div class="item" id="17">
+          <img class="im" src="Instrumental Study.jpg">
+          <div class="play-btn" id="17">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Instrumental Study</h5>
+          <p class="para" style="color:grey;">Relax songs to study and meditate</p>
+        </div>
+        <div class="item" id="18">
+          <img class="im" src="Peaceful Piano.jpg">
+          <div class="play-btn" id="18">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h5>Peaceful Piano</h5>
+          <p class="para" style="color:grey;">Peaceful piano to help you slow down,breathe</p>
+        </div>
+      </div>
+    </div>
+    <!--Footer Section-->
+    <div class="footer-section">
+      <div class="footer">
+        <div class="footer-links">
+          <div class="footer-column">
+            <div class="d">Company</div>
+            <ul class="col-links">
+              <li class="l1"><a href="" class="tag">About</a></li>
+              <li class="l1"><a href="" class="tag">Jobs</a></li>
+              <li class="l1"><a href="" class="tag">For the Record</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <div class="d">Communities</div>
+            <ul class="col-links">
+              <li class="l1"><a href="" class="tag">For Artists</a></li>
+              <li class="l1"><a href="" class="tag"> Developers</a></li>
+              <li class="l1"><a href="" class="tag">Adveritising</a></li>
+              <li class="l1"><a href="" class="tag">Investors</a></li>
+              <li class="l1"><a href="" class="tag">Vendors</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <div class="d">Useful Links</div>
+            <ul class="col-links">
+              <li class="l1"><a href="" class="tag">Support</a></li>
+              <li class="l1"><a href="" class="tag">Free mobile app</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <div class="d">Communities</div>
+            <ul class="col-links">
+              <li class="l1"><a href="" class="tag">Premium Indivuial</a></li>
+              <li class="l1"><a href="" class="tag">Premium Duo</a></li>
+              <li class="l1"><a href="" class="tag">Premium Family</a></li>
+              <li class="l1"><a href="" class="tag">Premium Student</a></li>
+              <li class="l1"><a href="" class="tag">Spotify Free</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-links">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+      </div>
+    </div>
+    <hr class="hr">
+    <div>
+      <p class="copy">&copy; 2024 Spotify AB</p>
+    </div>
+  </div>
+  <div class="preview">
+    <div class="icon">
+      <i class="fa fa-backward-step p-3"></i>
+      <button class="btn-2"
+        style="margin:0 10px; border-radius: 50%; border:1px solid white; color:white; background-color: black;"><i class="fa fa-play p-3"
+          id="masterPlay"></i></button>
+      <i class="fa fa-forward-step p-3" id="forwardPlay"></i>
+    </div>
+    <!--<div class="currenttime p-1" id="currentStart" style="color:white;position:fixed">
+    <span class="c p-1" style="color:beige;" id="currentStart">0:00</span></div>
+    <div class="bar mt-5" id="seek" style="width:80%;">
+      <input type="range" value="0" id="seek">
+    </div>--->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
